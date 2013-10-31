@@ -39,3 +39,8 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
+
+define('URL','http://localhost/CI-TB-FA/');
+define('IMG',URL.'assets/img/');
+define('CSS',URL.'assets/css/');
+define('JS',URL.'assets/js/');

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
-
+	
 	<style type="text/css">
 
 	::selection{ background-color: #E13300; color: white; }
@@ -63,13 +63,21 @@
 		-webkit-box-shadow: 0 0 8px #D0D0D0;
 	}
 	</style>
+	<link rel="stylesheet" href="<?php echo(CSS.'bootstrap.min.css'); ?>">
+	<link rel="stylesheet" href="<?php echo(CSS.'font-awesome.min.css'); ?>">
+	<script src="<?php echo(JS.'jquery.js'); ?>"></script>
+    <script src="<?php echo(JS.'bootstrap.min.js'); ?>"></script>
 </head>
 <body>
 
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
-
-	<div id="body">
+	<h1>Welcome to CodeIgniter! <i class="fa fa-fire fa-5x"></i> </h1>
+	<p class="pull-right">
+        <button class="btn btn-default btn-lg"><i class="fa fa-spinner fa-spin"></i></button>
+        <button class="btn btn-default btn-lg"><i class="fa fa-refresh fa-spin"></i></button>
+        <button class="btn btn-default btn-lg"><i class="fa fa-cog fa-spin"></i></button>
+      </p>
+    <div id="body">
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
 		<p>If you would like to edit this page you'll find it located at:</p>
