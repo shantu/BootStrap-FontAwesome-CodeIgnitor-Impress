@@ -22,3 +22,39 @@
   margin-left: auto;
   background-color: #46434C;
 }
+.navbar, .navbar-default{
+	margin-bottom: 0px;
+  background-color: black;
+  border: 0px;
+  border-radius: 0px;
+}
+.bigText{
+	background-color: rgba(255, 255, 255, 0);
+	width:700px;
+	margin:auto auto;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    background-color: white;
+    color: #1f8dd6;
+}
+.panel-body {
+    padding: 5px;
+    color: wheat;
+}
+.jumbotron, h1, .jumbotron h1 {
+    color: white;
+}
+h2{
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.row {
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-top: 50px;
+}
