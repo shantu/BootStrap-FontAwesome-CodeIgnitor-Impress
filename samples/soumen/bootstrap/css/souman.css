@@ -16,15 +16,15 @@
  }
 
 .container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #46434C;
+  
 }
 .navbar, .navbar-default{
 	margin-bottom: 0px;
-  background-color: black;
+  background-color: #2d3e50;
   border: 0px;
   border-radius: 0px;
 }
@@ -32,14 +32,16 @@
 	background-color: rgba(255, 255, 255, 0);
 	width:700px;
 	margin:auto auto;
+  margin-top: 150px;
 }
 .btn-group-lg>.btn, .btn-lg {
-    padding: 10px 16px;
+    padding: 10px 32px;
     font-size: 18px;
     line-height: 1.3333333;
     border-radius: 6px;
     background-color: white;
     color: #1f8dd6;
+    margin-bottom: 80px;
 }
 .panel-body {
     padding: 5px;
@@ -48,13 +50,40 @@
 .jumbotron, h1, .jumbotron h1 {
     color: white;
 }
-h2{
+#sec h3{
   text-align: center;
   font-weight: 400;
   text-transform: uppercase;
 }
 .row {
-    margin-right: -5px;
-    margin-left: -5px;
+    margin-right: -15px;
+    margin-left: -15px;
     margin-top: 50px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+#midle-sec h4{
+  color: #1f8dd6;
+  font-weight: bold;
+}
+#midle-sec p{
+  color: #2d3e50;
+  font-weight: bold;
+}
+.row1{
+  background-color: #2d3e50;
+}
+#sec1 h3{
+  text-align: left;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+}
+#sec1 p{
+  color: #B2BABB  ;
+  font-weight: bold;
 }
